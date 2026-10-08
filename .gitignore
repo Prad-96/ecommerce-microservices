@@ -1,0 +1,23 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Log files
+*.log
+
+# macOS files
+.DS_Store
+
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# VS Code settings
+.vscode/
